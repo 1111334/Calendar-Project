@@ -1,0 +1,45 @@
+**Funzioni Principali:**
+
+1. **Gestione degli Eventi:**
+   - Creare, modificare ed eliminare eventi nel calendario.
+   - Ottenere un elenco di eventi in base a vari criteri.
+   - Invitare altri utenti a partecipare agli eventi.
+
+2. **Gestione dei Calendari:**
+   - Creare, modificare ed eliminare calendari.
+   - Condividere calendari con altri utenti.
+   - Visualizzare un elenco di calendari dell'utente.
+
+3. **Gestione degli Utenti:**
+   - Registrazione di nuovi utenti.
+   - Autenticazione degli utenti.
+   - Gestione dei permessi degli utenti per l'accesso ai calendari.
+
+4. **Notifiche:**
+   - Invio di notifiche agli utenti per eventi futuri, modifiche agli eventi, ecc.
+   - Gestione delle notifiche in arrivo.
+
+5. **Sincronizzazione con Applicazioni di Terze Parti:**
+   - Integrazione con applicazioni di terze parti per scambiare dati e informazioni sul calendario.
+
+
+
+**Entità Principali:**
+
+1. **Utenti:**
+   - Ogni utente ha un profilo che contiene informazioni come nome, email, password, ecc.
+
+2. **Calendari:**
+   - Gli utenti possono creare uno o più calendari personali.
+   - I calendari possono essere condivisi con altri utenti.
+
+3. **Eventi:**
+   - Gli eventi rappresentano gli appuntamenti e le attività nel calendario.
+   - Contengono informazioni quali titolo, data e ora, luogo, descrizione e partecipanti.
+
+4. **Partecipanti:**
+   - Questa entità tiene traccia dei partecipanti agli eventi.
+   - Ogni partecipante è associato a un utente.
+
+5. **Notifiche:**
+   - Le notifiche vengono generate e inviate agli utenti per tenere traccia degli eventi e delle modifiche agli eventi.
